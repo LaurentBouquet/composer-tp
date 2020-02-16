@@ -36,7 +36,7 @@ Documentation sur `composer` : `https://getcomposer.org/doc/01-basic-usage.md`
 2. créer le dépot "composer-tp" (.gitignore `Composer` + LICENSE `MIT` + README)
 3. copier l'adresse `https://...` du dépôt
 4. ouvrir le terminal Windows, et se placer dans le dossier avec vos initiales (par exemple D:\LB)
-5. exécuter la commande `git clone ` suivi par l'adresse `https://...` du dépôt (par exemple `git clone https://github.com/VOTRE-COMPTE/composer-tp.git`)
+5. exécuter la commande `git clone ` suivie par l'adresse `https://...` du dépôt (par exemple `git clone https://github.com/VOTRE-COMPTE/composer-tp.git`)
 6. `cd composer-tp`
 
 
