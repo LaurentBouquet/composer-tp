@@ -58,7 +58,7 @@ Documentation sur `composer` : `https://getcomposer.org/doc/01-basic-usage.md`
 2. `composer install`
 
 ---
-3. code .
+3. `code .`
 
 ---
 4. vérifier le contenu du fichier `composer.json`
