@@ -43,7 +43,7 @@ Documentation sur `composer` : `https://getcomposer.org/doc/01-basic-usage.md`
 ---
 ## Créer le projet 
 
-1. composer init
+1. `composer init`
 - Package name : VOTRE-NOM/composer-tp
 - Description : Small project to learn the composer tool
 - Author : VOTRE-NOM \<VOTRE-ADRESSE-EMAIL\>
