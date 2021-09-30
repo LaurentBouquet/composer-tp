@@ -13,7 +13,7 @@ use Twig\Source;
 use Twig\Template;
 
 /* base.html.twig */
-class __TwigTemplate_07093433ffbbddb9a1f75f2befb854c75791fb507e05c5c0bcaab5df6f85e1c6 extends Template
+class __TwigTemplate_ff112f49e9a3684dc161e5a533fcce1d6c40e3cd888b8d6483296916f42586cc extends Template
 {
     private $source;
     private $macros = [];
@@ -38,26 +38,35 @@ class __TwigTemplate_07093433ffbbddb9a1f75f2befb854c75791fb507e05c5c0bcaab5df6f8
 <html>
 \t<head>
 \t\t<meta charset=\"utf-8\">
-\t\t<title>Logiciel -
-\t\t\t";
-        // line 6
+\t\t<title>";
+        // line 5
         echo twig_escape_filter($this->env, ($context["title"] ?? null), "html", null, true);
         echo "</title>
 \t</head>
 \t<body>
-\t\t<h1>Logiciel -
-\t\t\t";
-        // line 10
+\t\t<h1>";
+        // line 8
         echo twig_escape_filter($this->env, ($context["title"] ?? null), "html", null, true);
         echo "</h1>
-\t\t<p>Voici une page HTML, complétée par le texte :
+\t\t<ul>
 \t\t\t";
-        // line 12
-        echo twig_escape_filter($this->env, ($context["text"] ?? null), "html", null, true);
-        echo "</p>
+        // line 10
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable(($context["users"] ?? null));
+        foreach ($context['_seq'] as $context["_key"] => $context["user"]) {
+            // line 11
+            echo "\t\t\t\t<li>";
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["user"], "email", [], "any", false, false, false, 11), "html", null, true);
+            echo "</li>
+\t\t\t";
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['user'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 13
+        echo "\t\t</ul>
 \t</body>
-</html>
-";
+</html>";
     }
 
     public function getTemplateName()
@@ -72,11 +81,11 @@ class __TwigTemplate_07093433ffbbddb9a1f75f2befb854c75791fb507e05c5c0bcaab5df6f8
 
     public function getDebugInfo()
     {
-        return array (  56 => 12,  51 => 10,  44 => 6,  37 => 1,);
+        return array (  67 => 13,  58 => 11,  54 => 10,  49 => 8,  43 => 5,  37 => 1,);
     }
 
     public function getSourceContext()
     {
-        return new Source("", "base.html.twig", "C:\\LB\\php\\composer-tp\\templates\\base.html.twig");
+        return new Source("", "base.html.twig", "C:\\Users\\bouquet\\Documents\\php\\composer-tp\\templates\\base.html.twig");
     }
 }
